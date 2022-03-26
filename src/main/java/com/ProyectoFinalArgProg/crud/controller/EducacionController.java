@@ -37,7 +37,7 @@ public class EducacionController {
     private EducacionService eduServ;
 
     @PreAuthorize("hasRole('USER')")
-        @GetMapping("/educacion/{user}") 
+        @GetMapping("/educacion") 
             public ResponseEntity<List<Educacion>> list(){
                 List<Educacion> list = eduServ.verEducacion();
                 return new ResponseEntity(list, HttpStatus.OK);
