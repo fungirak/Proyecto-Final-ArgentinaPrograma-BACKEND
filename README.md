@@ -7,7 +7,7 @@
  Sistema Backend escrito en lenguaje Java, utilizando Framework Spring.
  
  # ENDPOINTS
- LINK DEL SERVIDOR EN VIVO: https://proyecto-final-arg-prog.herokuapp.com/ 
+ LINK DEL SERVIDOR EN VIVO: https://argentina-programa-portafolio.herokuapp.com/
  
  ENTIDADES: AcercaDe, Educacion, Experiencias, Skills, Proyectos.
  
@@ -17,41 +17,41 @@
     REGISTRO: 
     
     LOGIN:
-    https://proyecto-final-arg-prog.herokuapp.com/auth/login
+    https://argentina-programa-portafolio.herokuapp.com/auth/login
  
  # *** LOCK ***
  
    # METHOD GET 
      All
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/acerca_de
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/educacion
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/experiencias
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/skills
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/proyectos
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/acerca_de
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/educacion
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/experiencias
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/skills
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/proyectos
 
      One
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/acerca_de/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/educacion/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/experiencias/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/skills/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/proyectos/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/acerca_de/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/educacion/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/experiencias/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/skills/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/proyectos/id
          
    # METHOD POST
      
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/acerca_de
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/educacion
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/experiencias
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/skills
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/proyectos
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/acerca_de
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/educacion
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/experiencias
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/skills
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/proyectos
 
    
    # METHOD PUT & DELETE
      One
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/acerca_de/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/educacion/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/experiencias/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/skills/id
-         https://proyecto-final-arg-prog.herokuapp.com/api/v1/proyectos/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/acerca_de/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/educacion/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/experiencias/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/skills/id
+         https://argentina-programa-portafolio.herokuapp.com/api/v1/proyectos/id
    
  
  
