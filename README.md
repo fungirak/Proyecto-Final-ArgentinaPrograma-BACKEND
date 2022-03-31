@@ -17,6 +17,12 @@
  
  #  *** OPEN ***
     REGISTRO: 
+    {
+     "nombre": "usuario1", 
+     "nombreUsuario": "usuario1", 
+     "email": "usuario1@usuario1.com",
+     "password": "usuario1"
+    }
     
     LOGIN:
     https://argentina-programa-portafolio.herokuapp.com/auth/login
