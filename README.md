@@ -6,6 +6,8 @@
  
  Sistema Backend escrito en lenguaje Java, utilizando Framework Spring.
  
+ # USUARIO DE PRUEBA: nombreUsuario: "usuario1" , password: "usuario1"
+ 
  # ENDPOINTS
  LINK DEL SERVIDOR EN VIVO: https://argentina-programa-portafolio.herokuapp.com/
  
@@ -18,6 +20,11 @@
     
     LOGIN:
     https://argentina-programa-portafolio.herokuapp.com/auth/login
+    
+    { 
+       "nombreUsuario": "usuario1",
+       "password": "usuario1"
+    }
  
  # *** LOCK ***
  
@@ -39,10 +46,53 @@
    # METHOD POST
      
          https://argentina-programa-portafolio.herokuapp.com/api/v1/acerca_de
+         
+         {
+           "fullname": "...",
+           "posicion": "...",
+           "descripcion" : "..."
+         }
+         *Aclaración: solo podrá ser editado  el contenido inicial mostrado en pantalla, los posteriores post serán ignorados*
+         
          https://argentina-programa-portafolio.herokuapp.com/api/v1/educacion
+         
+         {
+          "institucion": "...",
+          "titulo": "...",
+          "periodo": "...", 
+          "estado" : "...",
+          "detalles": "..."
+         }
+         
+         
          https://argentina-programa-portafolio.herokuapp.com/api/v1/experiencias
+         
+         {
+          "empresa": "...",
+          "ubicacion": "...",
+          "puesto": "...",
+          "periodo": "...",
+          "actividades": "..."
+         }
+         
+         
          https://argentina-programa-portafolio.herokuapp.com/api/v1/skills
+         
+        {
+         "tecnologia": "...",
+         "imagen": "link_de_una_imagen"
+        }
+         
+         
          https://argentina-programa-portafolio.herokuapp.com/api/v1/proyectos
+         
+         {
+          "titulo": "...",
+          "imagen": "link_de_una_imagen",
+          "descripcion" : ""
+         }
+         
+         
 
    
    # METHOD PUT & DELETE
