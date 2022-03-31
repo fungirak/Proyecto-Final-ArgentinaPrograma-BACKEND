@@ -58,7 +58,7 @@
            "posicion": "...",
            "descripcion" : "..."
          }
-         *Aclaración: solo podrá ser editado  el contenido inicial mostrado en pantalla, los posteriores post serán ignorados*
+     
          
          https://argentina-programa-portafolio.herokuapp.com/api/v1/educacion
          
